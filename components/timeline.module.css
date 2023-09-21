@@ -1,0 +1,25 @@
+.timeline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: hidden;
+	max-width: 1000px;
+	width: 100%;
+}
+
+.canvasWrap {
+	position: relative;
+	overflow-x: scroll;
+	white-space: nowrap;
+	text-overflow: clip;
+	max-width: min-content;
+	width: 100%;
+}
+
+.eventButton {
+	position: absolute;
+	width: auto;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: normal;
+}
